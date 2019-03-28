@@ -9,12 +9,12 @@ from dataHelperFunctions import prepare_file_system, print_tensors_in_checkpoint
 
 
 #stuff you'll probably need to change
-outputRegressionCount = 6
+outputRegressionCount = 46
 # rootFolder = "./twoLaneFullFilteredFolders - with l2 loss/"
 # rootFolder = "./aug_two_lanes/"
-rootFolder = "./aug_two_lanes/"
+rootFolder = "./f_aug_two_lanes_percentage/"
 # dataset_path = "./Full dataset - normalized/"
-dataset_path = "./filtered_augmented_dataset/"
+dataset_path = "./d_aug_two_lanes_percentage_dataset/"
 loadFromBaseMobilenet = True
 
 #stuff you probably won't need to change

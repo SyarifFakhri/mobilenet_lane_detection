@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8842943-2623-4a58-a064-6312a789207c" name="Default" comment="" />
+    <list default="true" id="c8842943-2623-4a58-a064-6312a789207c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/load_two_lane_ft_percentage_visualization.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/load_two_lane_ft_percentage_visualization_video.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/LaneDetectionV3.iml" afterPath="$PROJECT_DIR$/.idea/LaneDetectionV3.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/LoadTwoLaneFineTuneCheckpoint-Visualization.py" afterPath="$PROJECT_DIR$/LoadTwoLaneFineTuneCheckpoint-Visualization.py" />
+      <change beforePath="$PROJECT_DIR$/Preprocess_lane_dataset.py" afterPath="$PROJECT_DIR$/Preprocess_lane_dataset.py" />
+      <change beforePath="$PROJECT_DIR$/create_validation_file.py" afterPath="$PROJECT_DIR$/create_validation_file.py" />
+      <change beforePath="$PROJECT_DIR$/dataHelperFunctions.py" afterPath="$PROJECT_DIR$/dataHelperFunctions.py" />
+      <change beforePath="$PROJECT_DIR$/two_lane_mobilenet_full_dataset.py" afterPath="$PROJECT_DIR$/two_lane_mobilenet_full_dataset.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,48 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="two_lane_mobilenet_full_dataset.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/two_lane_mobilenet_full_dataset.py">
+      <file leaf-file-name="culane-draw-lane.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/cuLane/culane_preprocessing/culane-draw-lane.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-521">
-              <caret line="89" column="33" lean-forward="false" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+            <state relative-caret-position="975">
+              <caret line="97" column="30" lean-forward="true" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
               <folding>
-                <element signature="e#1214#1255#0" expanded="false" />
-                <element signature="e#3568#3606#0" expanded="false" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view_endpoint.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view_endpoint.py">
+      <file leaf-file-name="load_two_lane_ft_percentage_visualization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/load_two_lane_ft_percentage_visualization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run_detection_only.py" pinned="false" current-in-tab="true">
-        <entry file="file://D:/models-master/research/object_detection/training/output_lane/saved_model/run_detection_only.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadTwoLaneFineTuneCheckpoint-Visualization.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LoadTwoLaneFineTuneCheckpoint-Visualization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -60,67 +45,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobilenet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobilenet.py">
+      <file leaf-file-name="load_two_lane_ft_percentage_visualization_video.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/load_two_lane_ft_percentage_visualization_video.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7616">
-              <caret line="456" column="22" lean-forward="false" selection-start-line="456" selection-start-column="22" selection-end-line="456" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Preprocess_lane_dataset.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Preprocess_lane_dataset.py">
+      <file leaf-file-name="LoadTwoLaneFineTuneCheckpoint-VideoVisualization.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Lane_do_inference/LoadTwoLaneFineTuneCheckpoint-VideoVisualization.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="two_lane_mobilenet_ft.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/two_lane_mobilenet_ft.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="126" column="27" lean-forward="false" selection-start-line="126" selection-start-column="27" selection-end-line="126" selection-end-column="27" />
+              <caret line="89" column="33" lean-forward="true" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <element signature="e#1104#1145#0" expanded="false" />
-                <element signature="e#3268#3306#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="export_inference_graph.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/models-master/research/object_detection/export_inference_graph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="78" lean-forward="false" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="culane_augment_dataset.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/cuLane/culane_preprocessing/culane_augment_dataset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadLeftLaneDetectionCheckpoint-visualization.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LoadLeftLaneDetectionCheckpoint-visualization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="142" lean-forward="false" selection-start-line="13" selection-start-column="142" selection-end-line="13" selection-end-column="142" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,12 +88,16 @@
       <find>checkpoint</find>
       <find>tf.placeholder</find>
       <find>input_ima</find>
+      <find>blank_image</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Preprocess_lane_dataset.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/left_lane_mobilenet_ft.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/dataHelperFunctions.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/left_lane_mobilenet_ft.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Preprocess_lane_dataset.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -162,26 +109,34 @@
         <option value="$PROJECT_DIR$/left_lane_mobilenet_ft.py" />
         <option value="$PROJECT_DIR$/filterLaneDataset.py" />
         <option value="$PROJECT_DIR$/LoadTwoLaneFineTuneCheckpoint.py" />
-        <option value="$PROJECT_DIR$/dataHelperFunctions.py" />
         <option value="$PROJECT_DIR$/LoadLeftLaneDetectionCheckpoint-visualization.py" />
-        <option value="$PROJECT_DIR$/create_validation_file.py" />
         <option value="$PROJECT_DIR$/find_corrupted_image.py" />
         <option value="$PROJECT_DIR$/twoLaneFullFilteredFolders - No l2 loss/convert_checkpoint_scope.py" />
         <option value="$PROJECT_DIR$/convert_checkpoint_scope.py" />
         <option value="$PROJECT_DIR$/two_lane_mobilenet_ft.py" />
-        <option value="$PROJECT_DIR$/two_lane_mobilenet_full_dataset.py" />
-        <option value="$PROJECT_DIR$/Preprocess_lane_dataset.py" />
-        <option value="$PROJECT_DIR$/LoadTwoLaneFineTuneCheckpoint-Visualization.py" />
         <option value="$PROJECT_DIR$/view_endpoint.py" />
         <option value="D:/models-master/research/object_detection/run_detection_only.py" />
+        <option value="D:/cuLane/culane_preprocessing/culane-draw-lane.py" />
+        <option value="$PROJECT_DIR$/Preprocess_lane_dataset.py" />
+        <option value="$PROJECT_DIR$/preprocess_percentage_dataset.py" />
+        <option value="$USER_HOME$/Desktop/New Text Document.py" />
+        <option value="$PROJECT_DIR$/two_lane_mobilenet_full_dataset.py" />
+        <option value="$PROJECT_DIR$/create_validation_file.py" />
+        <option value="$PROJECT_DIR$/load_two_lane_ft_percentage.py" />
+        <option value="$PROJECT_DIR$/LoadTwoLaneFineTuneCheckpoint-Visualization.py" />
+        <option value="$PROJECT_DIR$/dataHelperFunctions.py" />
+        <option value="$PROJECT_DIR$/load_two_lane_ft_percentage_visualization.py" />
+        <option value="D:/Lane_do_inference/LoadTwoLaneFineTuneCheckpoint-VideoVisualization.py" />
+        <option value="$PROJECT_DIR$/load_two_lane_ft_percentage_visualization_video.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -197,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,7 +164,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -233,8 +188,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.view_endpoint">
-    <configuration name="LoadTwoLaneFineTuneCheckpoint-Visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.load_two_lane_ft_percentage_visualization_video">
+    <configuration name="create_validation_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -246,13 +201,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LaneDetectionV3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LoadTwoLaneFineTuneCheckpoint-Visualization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_validation_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="convert_checkpoint_scope" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dataHelperFunctions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -264,13 +219,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LaneDetectionV3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convert_checkpoint_scope.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataHelperFunctions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="two_lane_mobilenet_ft" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="load_two_lane_ft_percentage_visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -282,7 +237,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LaneDetectionV3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/two_lane_mobilenet_ft.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/load_two_lane_ft_percentage_visualization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="load_two_lane_ft_percentage_visualization_video" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LaneDetectionV3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/load_two_lane_ft_percentage_visualization_video.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,38 +279,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="view_endpoint" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LaneDetectionV3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/view_endpoint.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.LoadTwoLaneFineTuneCheckpoint-Visualization" />
-      <item index="1" class="java.lang.String" itemvalue="Python.two_lane_mobilenet_full_dataset" />
-      <item index="2" class="java.lang.String" itemvalue="Python.two_lane_mobilenet_ft" />
-      <item index="3" class="java.lang.String" itemvalue="Python.convert_checkpoint_scope" />
-      <item index="4" class="java.lang.String" itemvalue="Python.view_endpoint" />
+      <item index="0" class="java.lang.String" itemvalue="Python.two_lane_mobilenet_full_dataset" />
+      <item index="1" class="java.lang.String" itemvalue="Python.create_validation_file" />
+      <item index="2" class="java.lang.String" itemvalue="Python.load_two_lane_ft_percentage_visualization" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dataHelperFunctions" />
+      <item index="4" class="java.lang.String" itemvalue="Python.load_two_lane_ft_percentage_visualization_video" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.view_endpoint" />
-        <item index="1" class="java.lang.String" itemvalue="Python.two_lane_mobilenet_full_dataset" />
-        <item index="2" class="java.lang.String" itemvalue="Python.LoadTwoLaneFineTuneCheckpoint-Visualization" />
-        <item index="3" class="java.lang.String" itemvalue="Python.two_lane_mobilenet_ft" />
-        <item index="4" class="java.lang.String" itemvalue="Python.convert_checkpoint_scope" />
+        <item index="0" class="java.lang.String" itemvalue="Python.load_two_lane_ft_percentage_visualization_video" />
+        <item index="1" class="java.lang.String" itemvalue="Python.load_two_lane_ft_percentage_visualization" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dataHelperFunctions" />
+        <item index="3" class="java.lang.String" itemvalue="Python.two_lane_mobilenet_full_dataset" />
+        <item index="4" class="java.lang.String" itemvalue="Python.create_validation_file" />
       </list>
     </recent_temporary>
   </component>
@@ -358,18 +313,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19322917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20572917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.002120891" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.090137854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2931854" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07104984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -392,93 +347,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/create_validation_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="39" column="64" lean-forward="false" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataHelperFunctions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="62" column="39" lean-forward="false" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/left_lane_mobilenet_ft.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-            <element signature="e#929#970#0" expanded="false" />
-            <element signature="e#3092#3130#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobilenet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6222">
-          <caret line="374" column="10" lean-forward="false" selection-start-line="374" selection-start-column="10" selection-end-line="374" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/two_lane_mobilenet_ft.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="218" column="36" lean-forward="true" selection-start-line="218" selection-start-column="36" selection-end-line="218" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#1104#1145#0" expanded="false" />
-            <element signature="e#3268#3306#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/two_lane_mobilenet_full_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#1214#1255#0" expanded="false" />
-            <element signature="e#3568#3606#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoadLeftLaneDetectionCheckpoint-visualization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="142" lean-forward="false" selection-start-line="13" selection-start-column="142" selection-end-line="13" selection-end-column="142" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Preprocess_lane_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_validation_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="39" column="64" lean-forward="false" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataHelperFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -490,9 +363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -500,11 +370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-            <element signature="e#929#970#0" expanded="false" />
-            <element signature="e#3092#3130#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,7 +377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -520,11 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2788">
           <caret line="214" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#1104#1145#0" expanded="false" />
-            <element signature="e#3268#3306#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -532,10 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3366">
           <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
-          <folding>
-            <element signature="e#1214#1255#0" expanded="false" />
-            <element signature="e#3568#3606#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,9 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -553,9 +405,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="13" column="142" lean-forward="false" selection-start-line="13" selection-start-column="142" selection-end-line="13" selection-end-column="142" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -584,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="93" column="20" lean-forward="false" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,11 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="49" column="55" lean-forward="true" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-            <element signature="e#929#970#0" expanded="false" />
-            <element signature="e#3092#3130#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,7 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,13 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="93" column="55" lean-forward="true" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/load_from_checkpoint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="66" column="10" lean-forward="false" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -665,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create_validation_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="39" column="64" lean-forward="false" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobileNet_v3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
@@ -683,11 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-            <element signature="e#929#970#0" expanded="false" />
-            <element signature="e#3092#3130#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,7 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7616">
           <caret line="456" column="22" lean-forward="false" selection-start-line="456" selection-start-column="22" selection-end-line="456" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,24 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataHelperFunctions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoadLeftLaneDetectionCheckpoint-visualization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="142" lean-forward="false" selection-start-line="13" selection-start-column="142" selection-end-line="13" selection-end-column="142" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,11 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="126" column="27" lean-forward="false" selection-start-line="126" selection-start-column="27" selection-end-line="126" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#1104#1145#0" expanded="false" />
-            <element signature="e#3268#3306#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,36 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="78" lean-forward="false" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Preprocess_lane_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoadTwoLaneFineTuneCheckpoint-Visualization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/two_lane_mobilenet_full_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-521">
-          <caret line="89" column="33" lean-forward="false" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-          <folding>
-            <element signature="e#1214#1255#0" expanded="false" />
-            <element signature="e#3568#3606#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -805,19 +575,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view_endpoint.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="204">
           <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -825,8 +589,157 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/New Text Document.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_validation_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="43" column="61" lean-forward="false" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two_lane_mobilenet_full_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+          <folding>
+            <element signature="e#1236#1277#0" expanded="false" />
+            <element signature="e#3590#3628#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/cuLane/culane_preprocessing/HelperAugmentationFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4437">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHelperFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="105" column="4" lean-forward="false" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/cuLane/culane_preprocessing/convert_labels_to_percentage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="38" lean-forward="true" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/cuLane/culane-generate-dataset-from-list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Preprocess_lane_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess_percentage_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoadLeftLaneDetectionCheckpoint-visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoadTwoLaneFineTuneCheckpoint-Visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_from_checkpoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="66" column="10" lean-forward="false" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <folding>
+            <element signature="e#2048#2071#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/cuLane/culane_preprocessing/culane-draw-lane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="97" column="30" lean-forward="true" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_two_lane_ft_percentage_visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Lane_do_inference/LoadTwoLaneFineTuneCheckpoint-VideoVisualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="89" column="33" lean-forward="true" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_two_lane_ft_percentage_visualization_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>

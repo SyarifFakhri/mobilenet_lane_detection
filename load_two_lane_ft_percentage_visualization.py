@@ -3,9 +3,8 @@ import mobileNet_v3
 import os
 from random import shuffle
 import cv2
-from dataHelperFunctions import filterImages, extractLabels, addDatasetPath, drawOneLane
+from dataHelperFunctions import filterImages, extractLabels, addDatasetPath, drawOneLaneFromPoints
 import math
-
 
 def unnormalizeFromParams(output, norm_params):
     """from a normalized element it unnormalizes it back again so that we can interpret the result"""
@@ -14,24 +13,19 @@ def unnormalizeFromParams(output, norm_params):
     for i in range(len(output)):
         output[i] = (float(output[i]) * float(norm_params[i*2 + 1])) + float(norm_params[i*2]) #multiply by the std deviation and add the mean
 
-    # output[0] = (float(output[0]) * float(norm_params[1])) + float(norm_params[0])
-    # output[1] = (float(output[1]) * float(norm_params[3])) + float(norm_params[2])
-    # output[2] = (float(output[2]) * float(norm_params[5])) + float(norm_params[4])
-
     return output
 
 
 # dataset_path = "./UTKFace/Validation/"
-dataset_path = "./d_filtered_augmented_dataset/"
+dataset_path = "./d_aug_two_lanes_percentage_dataset/"
 validation_path = "Validation/"
 #validation_path = ""
 
 normalized_dataset = True
-normalized_file_name = "./d_filtered_augmented_dataset/NormalizationParams.txt"
-root_folder = "./f_augment_folder_v1_backup/"
+normalized_file_name = "./d_aug_two_lanes_percentage_dataset/NormalizationParams.txt"
+root_folder = "./f_aug_two_lanes_percentage/"
 checkpoint = root_folder + "LANE_finetune_Checkpoint/FineTuneCheckpoint"
-output_regression_count = 6
-
+output_regression_count = 46
 
 tf.reset_default_graph()
 
@@ -67,21 +61,31 @@ file_names = addDatasetPath(dataset_path + validation_path, file_names)
 
 labels = extractLabels(file_names)
 
+yPoints = []
+for i in range(0, 224, 10):
+    yPoints.append(float(i))
+
 with tf.Session() as sess:
     saver.restore(sess, checkpoint)
 
     for i in range(len(file_names)):
         x = logits.eval(feed_dict={file_input: file_names[i]})
         print(x)
-        x = x[0]
-        unnormalizeFromParams(x, normalization_params)
-        image = cv2.imread(file_names[i])
-        image = drawOneLane(image, x[0], x[1], x[2], "blue")
-        image = drawOneLane(image, x[3], x[4], x[5], "yellow")
+        xPoints = x[0]
 
-        label = unnormalizeFromParams(labels[i], normalization_params)
-        image = drawOneLane(image, label[0], label[1], label[2], "green")
-        image = drawOneLane(image, label[3], label[4], label[5], "red")
+        unnormalizeFromParams(xPoints, normalization_params)
+
+
+        xPoints = xPoints[0:23]
+
+        image = cv2.imread(file_names[i])
+        # image = drawOneLaneFromPoints(image, x[0], x[1], x[2], "blue")
+        # image = drawOneLaneFromPoints(image, x[3], x[4], x[5], "yellow")
+        image = drawOneLaneFromPoints(image, xPoints, yPoints, "blue")
+
+        # label = unnormalizeFromParams(labels[i], normalization_params)
+        # image = drawOneLaneFromPoints(image, label[0], label[1], label[2], "green")
+        # image = drawOneLaneFromPoints(image, label[3], label[4], label[5], "red")
 
         print("predicted", x)
         # print("actual: ", label)

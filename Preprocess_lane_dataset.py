@@ -92,6 +92,7 @@ for name in image_files:
     lines = text_file.read().split()
     text_file.close()
 
+    #if theres no lanes on either left or right
     if int(lines[1]) == 0 or int(lines[2]) == 0:
         print("removed file with lines: ", lines, "name: ", name)
         os.remove(name) #remove the image

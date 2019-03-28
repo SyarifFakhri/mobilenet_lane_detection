@@ -6,6 +6,7 @@ import cv2
 def extractLabels(pictureFileNames):
 	"""
 	Takes the picture file names (array) and finds the corresponding labels.
+	assumes that the labels are formatted with one line spacing in between them and it's a simple regression problem
 	:param pictureFileNames: the image file names to find the labels of
 
 	:return: The labels of the images in order
@@ -101,6 +102,16 @@ def drawOneLane(_image, _a, _b, _c, color):
 		cv2.circle(_image, (i, int(x)), 1, colorDict[color], thickness=-1, lineType=8, shift=0)
 		#cv2.circle(_image, (int(x), i), 1, colorDict[color], thickness=-1, lineType=8, shift=0)
 	return _image
+
+def drawOneLaneFromPoints(_image, pointsX, pointsY, color):
+	colorDict = {"blue": (255, 0, 0), "green": (0, 255, 0), "yellow": (0, 255, 255), "red": (0, 0, 255)}
+	assert len(pointsX) == len(pointsY), "number of pointsX and pointsY should be the same" + len(pointsX) + len(pointsY)
+
+	for i in range(len(pointsX)):
+		cv2.circle(_image, (int(pointsX[i]), int(pointsY[i])), 3, colorDict[color], -1)
+
+	return _image
+
 
 
 

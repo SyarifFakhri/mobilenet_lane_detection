@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/0110 - dataset normalized" />
+      <excludeFolder url="file://$MODULE_DIR$/0110 - dataset standardized" />
+      <excludeFolder url="file://$MODULE_DIR$/LeftLaneOnlyFolders" />
+      <excludeFolder url="file://$MODULE_DIR$/MobileNetCheckpoint" />
+      <excludeFolder url="file://$MODULE_DIR$/almost - full-dataset" />
+      <excludeFolder url="file://$MODULE_DIR$/d_Full dataset - normalized" />
+      <excludeFolder url="file://$MODULE_DIR$/d_augment_all_v2" />
+      <excludeFolder url="file://$MODULE_DIR$/d_filtered-filtered-dataset-twoLane-Normalized - validation incorrect" />
+      <excludeFolder url="file://$MODULE_DIR$/d_filtered_augmented_dataset" />
+      <excludeFolder url="file://$MODULE_DIR$/dataset-filteredv2" />
+      <excludeFolder url="file://$MODULE_DIR$/f_aug_two_lanes" />
+      <excludeFolder url="file://$MODULE_DIR$/f_aug_two_lanes_v2" />
+      <excludeFolder url="file://$MODULE_DIR$/f_augment_folder_v1_backup" />
+      <excludeFolder url="file://$MODULE_DIR$/f_twoLaneFilteredFilteredFolders" />
+      <excludeFolder url="file://$MODULE_DIR$/f_twoLaneFullFilteredFolders - No l2 loss" />
+      <excludeFolder url="file://$MODULE_DIR$/f_twoLaneFullFilteredFolders - with l2 loss" />
+    </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

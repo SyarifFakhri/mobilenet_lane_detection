@@ -41,3 +41,5 @@ def create_validation_file(dataset_path):
         print("---------------------")
 
 # create_validation_file("./Full dataset - normalized/")
+create_validation_file("./d_aug_two_lanes_percentage_dataset/")
+print("Done")
